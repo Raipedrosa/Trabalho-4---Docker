@@ -208,32 +208,3 @@ A imagem pode ser removida depois que não for mais necessária:
 ```powershell
 docker rmi servico-web:1.0
 ```
-
-## 11. Evidências
-
-Armazene capturas legíveis e/ou saídas de terminal na pasta `evidencias/`. Cada evidência deve ter uma legenda curta informando o que comprova.
-
-Não inclua capturas fictícias. Registre os resultados reais obtidos durante a execução.
-
-## 12. Repositório Git
-
-Exemplo de publicação inicial em um repositório GitHub já criado:
-
-```powershell
-git init
-git add .
-git commit -m "Entrega inicial do serviço Docker"
-git branch -M main
-git remote add origin https://github.com/USUARIO/REPOSITORIO.git
-git push -u origin main
-```
-
-Substitua a URL de exemplo pela URL real do repositório. Se o repositório já estiver clonado e configurado, normalmente basta:
-
-```powershell
-git add .
-git commit -m "Adiciona documentação e evidências"
-git push
-```
-
-Confirme que o professor tem permissão para acessar o repositório, especialmente se ele for privado.
